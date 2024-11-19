@@ -29,4 +29,17 @@ class ProductExport implements FromCollection, WithHeadings
             'Updated_at',
         ];
     }
+
+    public function row(): array
+    {
+        return [
+            Product::all()->id,
+            Product::all()->name_product,
+            Product::all()->category_id->category_name,
+            Product::all()->price,
+            Product::all()->stock,
+            Product::all()->created_at,
+            Product::all()->updated_at,
+        ];
+    }
 }

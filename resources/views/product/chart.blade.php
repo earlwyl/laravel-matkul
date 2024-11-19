@@ -4,7 +4,9 @@
     <div class="container" >
         <h1 align="center" >Chart Product</h1>
         <div class="card-body" >
-            <div id="chartProduct" class="mb-0 mt-0" style="display: block" ></div>
+            <div id="chartProduct" class="mb-0 mt-0" style="display: block" >
+                <a href=""></a>
+            </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts" ></script>

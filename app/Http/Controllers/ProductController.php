@@ -94,4 +94,12 @@ class ProductController extends Controller
 
         return view('product.chart', compact('dataLabel', 'dataStock'));
     }
+
+    // public function chart()
+    // {
+    //     $dataLabel = Produk::orderBy('nama_produk', 'asc')->pluck('nama_produk')->toArray();
+    //     $dataStok = Produk::orderBy('nama_produk', 'asc')->pluck('stok')->toArray();
+
+    //     return view('produk.chart', compact('dataLabel', 'dataStok'));
+    // }
 }
